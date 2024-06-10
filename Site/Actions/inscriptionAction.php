@@ -1,11 +1,18 @@
 <?php
     include_once 'db.php';
 
+<<<<<<< HEAD
     if(isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['telephon']) && isset($_POST['dateNaissance']) && isset($_POST['sexe']) && isset($_POST['ecole']) && isset($_POST['filiere']) && isset($_POST['niveauEtude']) && isset($_POST['cin']) && isset($_POST['password'])){
         $nom = $_POST['nom'];
         $prenom = $_POST['prenom'];
         $email = $_POST['email'];
         $telephon = $_POST['telephon'];
+=======
+    if(isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['dateNaissance']) && isset($_POST['sexe']) && isset($_POST['ecole']) && isset($_POST['filiere']) && isset($_POST['niveauEtude']) && isset($_POST['cin']) && isset($_POST['password'])){
+        $nom = $_POST['nom'];
+        $prenom = $_POST['prenom'];
+        $email = $_POST['email'];
+>>>>>>> origin/master
         $dateNaissance = $_POST['dateNaissance'];
         $sexe = $_POST['sexe'];
         $ecole = $_POST['ecole'];
@@ -15,7 +22,10 @@
         $password = $_POST['password'];
         $dateInscription = date('Y-m-d H:i:s');
         $typeInscription="Candidat";
+<<<<<<< HEAD
         
+=======
+>>>>>>> origin/master
 
 
         //INSERTION
@@ -39,14 +49,22 @@
 
 
             if(preg_match($pattern,$password)){
+<<<<<<< HEAD
                 $REQ="INSERT INTO Candidat(nomCandidat	,prenomCandidat,	emailCandidat, telephon,	dateNaissance,	sexeCandidat,	ecoleCandidat,	filiereCandidat,	niveauEtudCandidat,	cinCandidat	,passwordCandidat,dateInscription,TypeInscription	) VALUES
                 (?,?,?,?,?,?,?,?,?,?,?,?,?)";
+=======
+                $REQ="INSERT INTO Candidat(nomCandidat	,prenomCandidat,	emailCandidat,	dateNaissance,	sexeCandidat,	ecoleCandidat,	filiereCandidat,	niveauEtudCandidat,	cinCandidat	,passwordCandidat,dateInscription,TypeInscription	) VALUES
+                (?,?,?,?,?,?,?,?,?,?,?,?)";
+>>>>>>> origin/master
                 $stmt=$CONNEXION->prepare($REQ);
                 $stmt->execute(array(
                     $nom,
                     $prenom,
                     $email,
+<<<<<<< HEAD
                     $telephon,
+=======
+>>>>>>> origin/master
                     $dateNaissance,
                     $sexe,
                     $ecole,
@@ -102,9 +120,14 @@
                       
                       ";
                       $headers = "From: CRO@ConseilRegional.com";
+<<<<<<< HEAD
                 
                 // mail($email, $subject, $message, $headers); 
 
+=======
+              
+                mail($email, $subject, $message, $headers);
+>>>>>>> origin/master
             }else{
                 $existe="<div class='alert alert-danger' role='alert'>
                             Le mot de passe doit contenir au moins 8 caractères, une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial.

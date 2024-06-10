@@ -148,6 +148,7 @@
                   <?php endforeach;?>
                   <?php foreach($resultat as $row):;?>
                   <tr>
+<<<<<<< HEAD
                   <tr>
                     <th scope="row">Numéro de télephone</th>
                     <td><?php echo $row["telephon"];?></td>
@@ -155,6 +156,8 @@
                   <?php endforeach;?>
                   <?php foreach($resultat as $row):;?>
                   <tr>
+=======
+>>>>>>> origin/master
                     <th scope="row">Date de naissance</th>
                     <td><?php echo $row["dateNaissance"];?></td>
                   </tr>

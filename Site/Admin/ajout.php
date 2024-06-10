@@ -81,10 +81,17 @@ include_once "../Actions/ajoutAction.php";
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
+<<<<<<< HEAD
                     <a href="index.php" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>TABLEAU de bord</a>
                     <a href="stagiaires.php" class="nav-item nav-link "><i class="fa fa-th me-2"></i>STAGIAIRES</a>
                     <a href="candidatures.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>CANDIDATURES</a>
                     <a href="ajout.php" class="nav-item nav-link active"><i class="fa fa-plus me-2"></i>AJOUTER</a>
+=======
+                    <a href="index.php" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Tableau de bord</a>
+                    <a href="stagiaires.php" class="nav-item nav-link "><i class="fa fa-th me-2"></i>Stagiaires</a>
+                    <a href="candidatures.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Candidatures</a>
+                    <a href="ajout.php" class="nav-item nav-link active"><i class="fa fa-chart-bar me-2"></i> Inscrire</a>
+>>>>>>> origin/master
                     
                 </div>
             </nav>
@@ -115,9 +122,15 @@ include_once "../Actions/ajoutAction.php";
 
                    <?php foreach($resultat as $row):;?>
                         
+<<<<<<< HEAD
                    <h3 class="text-center">BONJOUR ET BIENVENUE : <?php echo $row['nomAdmin'];?> <?php echo $row['prenomAdmin'];?></h3>
                        <?php endforeach;?>
                         <span>Nouveau stagiaire :</span>
+=======
+                   <h3 class="text-center">Boujour et bienvenu Amin: <?php echo $row['nomAdmin'];?> <?php echo $row['prenomAdmin'];?></h3>
+                       <?php endforeach;?>
+                        <span>Admin</span>
+>>>>>>> origin/master
         
                        
                         <div>
@@ -162,7 +175,11 @@ include_once "../Actions/ajoutAction.php";
                 <input class="border-2 shadow bg-light border-primary form-control" type="text" name="cin" id="cin" class="form-control" required>
               </div> <br>
               <div class="text-center">
+<<<<<<< HEAD
                 <button type="submit" class="btn v btn-primary">Ajouter le nouveau stagiaire</button>
+=======
+                <button type="submit" class="btn v btn-primary">Creer le compte</button>
+>>>>>>> origin/master
               </div>
             </form>
         </div>

@@ -71,10 +71,17 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
+<<<<<<< HEAD
                 <a href="index.php" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>TABLEAU de bord</a>
                     <a href="stagiaires.php" class="nav-item nav-link "><i class="fa fa-th me-2"></i>STAGIAIRES</a>
                     <a href="candidatures.php" class="nav-item nav-link active"><i class="fa fa-keyboard me-2"></i>CANDIDATURES</a>
                     <a href="ajout.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>AJOUTER</a>
+=======
+                <a href="index.php" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Tableau de bord</a>
+                    <a href="stagiaires.php" class="nav-item nav-link "><i class="fa fa-th me-2"></i>Stagiaires</a>
+                    <a href="candidatures.php" class="nav-item nav-link active"><i class="fa fa-keyboard me-2"></i>Candidatures</a>
+                    <a href="ajout.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i> Inscrire</a>
+>>>>>>> origin/master
                 </div>
             </nav>
         </div>
@@ -118,11 +125,17 @@
                                 <tr class="text-dark">
                                    
                                     <th scope="col">#</th>
+<<<<<<< HEAD
                                     <th scope="col">Curriculum vitae</th>
                                     <th scope="col">Demande de stage</th>
                                     <th scope="col">Assurance de stage</th>
                                     <th scope="col">Convention de stage</th>
                                     <th scope="col">Numéro d'offre</th>
+=======
+                                    <th scope="col">CV(PDF)</th>
+                                    <th scope="col">Demande de stage(PDF)</th>
+                                    <th scope="col">Assurance de stage(PDF)</th>
+>>>>>>> origin/master
                                     <th scope="col">ID-candidat</th>
                                     <th scope="col">Accepter</th>
                                     <th scope="col">Refuser</th>
@@ -138,11 +151,17 @@
                                 <tr>
                                   
                                     <td><?php echo $row['idDemande'];?></td>
+<<<<<<< HEAD
                                     <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_CV.pdf"><button class="btn btn-primary">Voir le CV</button></a></td>
                                     <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_demande.pdf"><button class="btn btn-dark">Voir la demande</button></a></td>
                                     <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_assurance.pdf"><button class="btn btn-success">Voir l'assurance</button></a></td>
                                     <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_convention.pdf"><button class="btn btn-success">Voir la convention</button></a></td>
                                     <td><?php echo $row['offreStage'];?></td>
+=======
+                                    <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_CV.pdf"><button class="btn btn-primary">CV</button></a></td>
+                                    <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_demande.pdf"><button class="btn btn-dark">Voir la demande</button></a></td>
+                                    <td><a href="../Fichiers/<?php echo $row['candidat'];?>/<?php echo $row['candidat'];?>_assurance.pdf"><button class="btn btn-success">Voir l'assurance</button></a></td>
+>>>>>>> origin/master
                                     <td><?php echo $row['candidat'];?></td>
                                     <td>
                                         <form action="accepter.php" method="post">
@@ -211,7 +230,10 @@
                                             <input type="hidden" name="nom" value="<?php echo $ligne['nomCandidat']; ?>">
                                             <input type="hidden" name="prenom" value="<?php echo $ligne['prenomCandidat']; ?>">
                                             <input type="hidden" name="email" value="<?php echo $ligne['emailCandidat']; ?>">
+<<<<<<< HEAD
                                             <input type="hidden" name="telephon" value="<?php echo $ligne['telephon']; ?>">
+=======
+>>>>>>> origin/master
                                             <input type="hidden" name="sexe" value="<?php echo $ligne['sexeCandidat']; ?>">
                                             <input type="hidden" name="dateNaissance" value="<?php echo $ligne['dateNaissance']; ?>">
                                             <input type="hidden" name="ecole" value="<?php echo $ligne['ecoleCandidat']; ?>">

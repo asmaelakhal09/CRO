@@ -118,6 +118,7 @@
                   <div class="col-md-6">
                     <h2 class="text-center mb-4">Déposez-vos dossiers pour compléter votre demande</h2>
                     <form class="border shadow p-3" action="" method="POST" enctype="multipart/form-data">
+<<<<<<< HEAD
                         <div class="form-group">
                         <label for="cv">Curriculum Vitae :</label>
                         <input type="file" class="form-control" id="cv" name="cv" required>
@@ -173,6 +174,38 @@
                         </div> <br>
                         <button type="submit" class="btn btn-primary btn-block">Valider</button>
                    </form>
+=======
+                      <div class="form-group">
+                        <label for="cv">CV</label>
+                        <input type="file" class="form-control" id="cv" name="cv" required>
+                      </div> <br>
+                      <div class="form-group">
+                        <label for="demandeStage">Demande de stage</label>
+                        <input type="file" class="form-control" id="demande" name="demande" required>
+                      </div> <br>
+                      <div class="form-group">
+                        <label for="assuranceStage">Assurance de stage</label>
+                        <input type="file" class="form-control" id="assurance" name="assurance" required>
+                      </div> <br>
+                      <div class="form-group">
+                        <label for="assuranceStage">Periode de stage</label>
+                        <select class="form-control" name="periode" id="periode">
+                            <option value="un mois">un mois</option>
+                            <option value="deux mois">deux mois</option>
+                            <option value="trois mois">trois mois</option>
+                        </select>
+                      </div> <br>
+                      <div class="form-group">
+                        <label for="assuranceStage">Date de debut de stage</label>
+                        <input type="date" class="form-control" id="debut" name="debut" required>
+                      </div> <br>
+                      <div class="form-group">
+                        <label for="assuranceStage">Date de fin de stage</label>
+                        <input type="date" class="form-control" id="fin" name="fin" required>
+                      </div> <br>
+                      <button type="submit" class="btn btn-primary btn-block">Valider</button>
+                    </form>
+>>>>>>> origin/master
                   </div>
                 </div>
               </div>

@@ -73,10 +73,17 @@ include_once "securityAction.php";
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
+<<<<<<< HEAD
                 <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>TABLEAU de bord</a>
                     <a href="stagiaires.php" class="nav-item nav-link "><i class="fa fa-th me-2"></i>STAGIAIRES</a>
                     <a href="candidatures.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>CANDIDATURES</a>
                     <a href="ajout.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>AJOUTER</a>
+=======
+                <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Tableau de bord</a>
+                    <a href="stagiaires.php" class="nav-item nav-link "><i class="fa fa-th me-2"></i>Stagiaires</a>
+                    <a href="candidatures.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Candidatures</a>
+                    <a href="ajout.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i> Inscrire</a>
+>>>>>>> origin/master
                     
                 </div>
             </nav>
@@ -107,15 +114,25 @@ include_once "securityAction.php";
 
 
         
+<<<<<<< HEAD
                         <h3 class="text-center">Bonjour et bienvenue administrateur <?php echo $row['nomAdmin'];?> <?php echo $row['prenomAdmin'];?></h3>
                         <p class="text-center">
                             Voici les statistiques des derniers enregistrements :
+=======
+                        <h3 class="text-center">Boujour et bienvenu Administrateur <?php echo $row['nomAdmin'];?> <?php echo $row['prenomAdmin'];?></h3>
+                        <p class="text-center">
+                            Voici les statistiques des derniers enregistrements
+>>>>>>> origin/master
                         </p>
             <!-- Recent Sales Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
+<<<<<<< HEAD
                         <h6 class="mb-0">TABLEAU DE BORD : </h6>
+=======
+                        <h6 class="mb-0">Tableau de bord </h6>
+>>>>>>> origin/master
                        
                     </div>
                     <div class="table-responsive">
@@ -123,8 +140,13 @@ include_once "securityAction.php";
                             <thead>
                                 <tr class="text-dark">
                                    
+<<<<<<< HEAD
                                     <th scope="col">Nombre de candidats inscrits :</th>
                                     <th scope="col">Nombre de candidatures :</th>
+=======
+                                    <th scope="col">Nombre de candidats inscrits</th>
+                                    <th scope="col">Nombre de candidatures</th>
+>>>>>>> origin/master
                                 </tr>
                             </thead>
                             <tbody>

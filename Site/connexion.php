@@ -114,7 +114,10 @@
             <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="index.php" class="nav-item nav-link xx ">Acceuil</a>
                 <a href="about.php" class="nav-item nav-link xx">Apropos</a>
+<<<<<<< HEAD
                 <a href="offre.php" class="nav-item nav-link xx">Offres</a>
+=======
+>>>>>>> origin/master
                 <a href="inscription.php" class="nav-item nav-link xx">S'inscrire</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Connexion</a>

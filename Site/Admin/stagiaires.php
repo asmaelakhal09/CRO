@@ -71,10 +71,17 @@ include_once "securityAction.php";
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
+<<<<<<< HEAD
                 <a href="index.php" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>TABLEAU DE BORD</a>
                     <a href="stagiaires.php" class="nav-item nav-link active"><i class="fa fa-th me-2"></i>STAGIAIRES</a>
                     <a href="candidatures.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>CANDIDATURES</a>
                     <a href="ajout.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>AJOUTER</a>
+=======
+                <a href="index.php" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Tableau de bord</a>
+                    <a href="stagiaires.php" class="nav-item nav-link active"><i class="fa fa-th me-2"></i>Stagiaires</a>
+                    <a href="candidatures.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Candidatures</a>
+                    <a href="ajout.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i> Inscrire</a>
+>>>>>>> origin/master
                 </div>
             </nav>
         </div>
@@ -109,7 +116,11 @@ include_once "securityAction.php";
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
+<<<<<<< HEAD
                         <h6 class="mb-0">LISTE DE STAGIAIRES INSCRIS :</h6>
+=======
+                        <h6 class="mb-0">Liste des stagiaires ayant des comptes</h6>
+>>>>>>> origin/master
                        
                     </div>
                     <div class="table-responsive">
@@ -118,6 +129,7 @@ include_once "securityAction.php";
                                 <tr class="text-dark">
                                    
                                     <th scope="col">#</th>
+<<<<<<< HEAD
                                     <th scope="col">NON</th>
                                     <th scope="col">PRENOM</th>
                                     <th scope="col">EMAIL</th>
@@ -130,6 +142,19 @@ include_once "securityAction.php";
                                     <th scope="col">CIN</th>
                                     <th scope="col">DEMANDE</th>
                                     <th colspan="2" scope="col">ACTIONS</th>
+=======
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Prénom</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Date de naissance</th>
+                                    <th scope="col">Sexe</th>
+                                    <th scope="col">Ecole</th>
+                                    <th scope="col">Filière</th>
+                                    <th scope="col">Niveau</th>
+                                    <th scope="col">CIN</th>
+                                    <th scope="col">Demande</th>
+                                    <th colspan="2" scope="col">Actions</th>
+>>>>>>> origin/master
                                 </tr>
                             </thead>
                             <tbody>
@@ -139,7 +164,10 @@ include_once "securityAction.php";
                                     <td scope="col"><?php echo $row['nomCandidat'];?></td>
                                     <td scope="col"><?php echo $row['prenomCandidat'];?></td>
                                     <td scope="col"><?php echo $row['emailCandidat'];?></td>
+<<<<<<< HEAD
                                     <td scope="col"><?php echo $row['telephon'];?></td>
+=======
+>>>>>>> origin/master
                                     <td scope="col"><?php echo $row['dateNaissance'];?></td>
                                     <td scope="col"><?php echo $row['sexeCandidat'];?></td>
                                     <td scope="col"><?php echo $row['ecoleCandidat'];?></td>
@@ -150,7 +178,11 @@ include_once "securityAction.php";
                                         <?php 
                                                 
                                                 $emailStagiaire = $row['emailCandidat'];
+<<<<<<< HEAD
                                                 $candidature = in_array($emailStagiaire, array_column($resultat2, 'candidat')) ? '<a href="candidatures.php">Voir sa demande</a>' : 'Aucune demande';
+=======
+                                                $candidature = in_array($emailStagiaire, array_column($resultat2, 'candidat')) ? '<a href="candidatures.php">Voir sa demande</a>' : 'Pas encore de demande';
+>>>>>>> origin/master
                                                 echo $candidature;
                                                    
                                                

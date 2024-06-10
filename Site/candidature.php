@@ -190,7 +190,10 @@ $etat = $stt->fetchColumn(); // Utilisez fetchColumn() pour obtenir directement 
                                             <input type="hidden" name="nom" value="<?php echo $ligne['nomCandidat']; ?>">
                                             <input type="hidden" name="prenom" value="<?php echo $ligne['prenomCandidat']; ?>">
                                             <input type="hidden" name="email" value="<?php echo $ligne['emailCandidat']; ?>">
+<<<<<<< HEAD
                                             <input type="hidden" name="telephon" value="<?php echo $ligne['telephon']; ?>">
+=======
+>>>>>>> origin/master
                                             <input type="hidden" name="sexe" value="<?php echo $ligne['sexeCandidat']; ?>">
                                             <input type="hidden" name="dateNaissance" value="<?php echo $ligne['dateNaissance']; ?>">
                                             <input type="hidden" name="ecole" value="<?php echo $ligne['ecoleCandidat']; ?>">

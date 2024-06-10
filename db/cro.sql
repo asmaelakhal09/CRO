@@ -33,7 +33,10 @@ CREATE TABLE IF NOT EXISTS `candidat` (
   `nomCandidat` varchar(50) NOT NULL,
   `prenomCandidat` varchar(50) NOT NULL,
   `emailCandidat` varchar(100) NOT NULL,
+<<<<<<< HEAD
   `telephon` varchar(50) NOT NULL,
+=======
+>>>>>>> origin/master
   `dateNaissance` date NOT NULL,
   `sexeCandidat` varchar(45) NOT NULL,
   `ecoleCandidat` varchar(50) NOT NULL,

@@ -7,7 +7,10 @@ include_once "../db.php";
         $nom=$_POST['nom'];
         $prenom=$_POST['prenom'];
         $email=$_POST['email'];
+<<<<<<< HEAD
         $telephon=$_POST['telephon'];
+=======
+>>>>>>> origin/master
         $dateNaissance=$_POST['dateNaissance'];
         $sexe=$_POST['sexe'];
         $ecole=$_POST['ecole'];
@@ -20,7 +23,10 @@ include_once "../db.php";
                 nomCandidat=?,
                 prenomCandidat=?,
                 emailCandidat=?,
+<<<<<<< HEAD
                 telephonCandidat=?,
+=======
+>>>>>>> origin/master
                 dateNaissance=?,
                 sexeCandidat=?,
                 ecoleCandidat=?,
@@ -28,7 +34,11 @@ include_once "../db.php";
                 niveauEtudCandidat=?,
                 cinCandidat=? WHERE idCandidat=?";
         $stmt=$CONNEXION->prepare($REQ);
+<<<<<<< HEAD
         $stmt->execute([$nom,$prenom,$email,$telephon,$dateNaissance,$sexe,$ecole,$filiere,$niveau,$cin,$id]);
+=======
+        $stmt->execute([$nom,$prenom,$email,$dateNaissance,$sexe,$ecole,$filiere,$niveau,$cin,$id]);
+>>>>>>> origin/master
         // $resultat=$stmt->fetchAll(PDO::FETCH_ASSOC);
     }else{
 

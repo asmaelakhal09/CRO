@@ -27,6 +27,7 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="jquery.min.js"></script>
+<<<<<<< HEAD
     
 
 
@@ -35,6 +36,9 @@
 </head>
 
 <style>
+=======
+    <style>
+>>>>>>> origin/master
         .hero-header
         {
             background-image:url('img/thumb.jpg');
@@ -63,6 +67,7 @@
             background-color: #ffc109 !important;
             height: 200px;
         }
+<<<<<<< HEAD
         *{
     padding: 0;
     margin: 0;
@@ -173,6 +178,15 @@ ul li span a {
 } 
     </style>
 
+=======
+        
+    </style>
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+>>>>>>> origin/master
 <body>
     <!-- Spinner Start -->
     <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -182,6 +196,7 @@ ul li span a {
 
 
     <!-- Navbar Start -->
+<<<<<<< HEAD
     <div class="nav">
     <div class="logo"><img src="./Logo CRO_0 (1).png" alt=""></div>
     <ul>
@@ -197,6 +212,31 @@ ul li span a {
         <button>se connecter</button>
     </div>
 </div>
+=======
+    <nav id="bar" class="navbar navbar-expand-lg nnn navbar-light  sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="../Site/Logo CRO_0 (1).png" alt="" style="width: 60px;"></h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.php" class="nav-item nav-link xx ">Acceuil</a>
+                <a href="about.php" class="nav-item nav-link xx">Apropos</a>
+                <a href="inscription.php" class="nav-item nav-link xx">S'inscrire</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Connexion</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="connexion.php" class="dropdown-item active">Candidat</a>
+                        <a href="connexionAdmin.php" class="dropdown-item">Adminisrtateur</a>
+                    </div>
+                </div>
+                <!-- <a href="contact.php" class="nav-item nav-link">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+>>>>>>> origin/master
     <!-- Navbar End -->
 
 

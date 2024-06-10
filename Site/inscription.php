@@ -96,7 +96,10 @@
             <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="index.php" class="nav-item nav-link ">Acceuil</a>
                 <a href="about.php" class="nav-item nav-link ">Apropos</a>
+<<<<<<< HEAD
                 <a href="offre.php" class="nav-item nav-link xx">Offres</a>
+=======
+>>>>>>> origin/master
                 <a href="inscription.php" class="nav-item nav-link active">S'inscrire</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Connexion</a>
@@ -177,6 +180,7 @@
                 <input class="border-1 shadow bg-light  border-2 form-control" type="email" name="email" id="email" class="form-control" required>
               </div>
             </div>
+<<<<<<< HEAD
             <form>
             <label for="telephon" class="text-dark">Numéro de téléphone :</label><br>
             <div class="input-group">
@@ -188,6 +192,8 @@
             <small>Format : +212XXXXXXXXX</small><br>
             </span>
             </form>
+=======
+>>>>>>> origin/master
             <div class="form-group">
               <label class="text-dark">Sexe :</label>
               <select name="sexe" id="sexe" class="border-1 shadow  bg-light border-2 form-control" required>
